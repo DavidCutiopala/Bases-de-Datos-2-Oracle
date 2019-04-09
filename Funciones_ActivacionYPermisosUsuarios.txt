@@ -12,6 +12,7 @@ GRANT "CONNECT" to Programador;
 GRANT alter  tablespace to DbaDavid;
 GRANT execute any procedure to DbaDavid ;
 GRANT connect,resource to DbaDavid;
+GRANT UNLIMITED TABLESPACE TO dbaDavid;
 
 --ACTIVAR USUARIOS
 alter user hr account unlock IDENTIFIED by hr;
