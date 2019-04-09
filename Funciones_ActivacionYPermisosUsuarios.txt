@@ -2,7 +2,7 @@
 
 --Crear usuarios y dar permisos
 --_____________________________________________
-
+alter session set "_ORACLE_SCRIPT"=true;
 CREATE USER DbaDavid IDENTIFIED BY "12345"
        DEFAULT TABLESPACE "USERS"
        TEMPORARY TABLESPACE "TEMP";
