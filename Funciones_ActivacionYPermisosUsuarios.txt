@@ -14,5 +14,8 @@ GRANT execute any procedure to DbaDavid ;
 GRANT connect,resource to DbaDavid;
 GRANT UNLIMITED TABLESPACE TO dbaDavid;
 
+Todos los permisos 
+grant all privileges to dbadavid ;
+
 --ACTIVAR USUARIOS
 alter user hr account unlock IDENTIFIED by hr;
