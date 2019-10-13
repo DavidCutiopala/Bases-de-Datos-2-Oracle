@@ -7,7 +7,7 @@ alter session set "_ORACLE_SCRIPT"=true;  Ejecutar primero esta linea
 
 create user david identified by "12345";   Ejectarlo despues 
 grant connect to david;
-grant all privileges to david identified by  "12345";  Dar todos los permisos
+grant all privileges to david;  Dar todos los permisos
 
 _________________________________________________________
 
