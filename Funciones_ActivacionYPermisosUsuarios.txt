@@ -2,10 +2,14 @@
 
 --Crear usuarios y dar permisos
 --_____________________________________________
-alter session set "_ORACLE_SCRIPT"=true;
-CREATE USER DbaDavid IDENTIFIED BY "12345"
-       DEFAULT TABLESPACE "USERS"
-       TEMPORARY TABLESPACE "TEMP";
+alter session set "_ORACLE_SCRIPT"=true;  Ejecutar primero esta linea
+
+
+create user david identified by "12345";   Ejectarlo despues 
+grant connect to david;
+grant all privileges to david identified by  "12345";  Dar todos los permisos
+
+_________________________________________________________
 
 GRANT "CONNECT" to Programador;
 
